@@ -1,0 +1,32 @@
+{
+	"name": "@ayka/biome-config",
+	"version": "1.0.0",
+	"description": "A shared Biome configuration package that provides consistent code formatting and linting rules.",
+	"keywords": [
+		"biome",
+		"config",
+		"linting",
+		"formatting"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AndreyMork/biome-config.git"
+	},
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "pnpm@9.14.2",
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": {
+		".": "./biome.json"
+	},
+	"files": [
+		"biome.json"
+	],
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.2",
+		"npm-check-updates": "^17.1.3",
+		"prettier": "^3.3.3"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"extends": [],
+	"formatter": {
+		"enabled": false
+	},
+	"javascript": {
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		}
+	},
+	"json": {
+		"parser": {
+			"allowComments": true,
+			"allowTrailingCommas": true
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"ignore": [],
+		"rules": {
+			"complexity": {
+				"noBannedTypes": "warn",
+				"noExcessiveCognitiveComplexity": "warn",
+				"noForEach": "off",
+				"noThisInStatic": "off",
+				"noUselessStringConcat": "warn",
+				"useDateNow": "warn",
+				"useLiteralKeys": "off",
+				"useSimplifiedLogicExpression": "warn"
+			},
+			"correctness": {
+				"noConstantMathMinMaxClamp": "warn",
+				"noConstructorReturn": "warn",
+				"noUndeclaredDependencies": "warn",
+				"noUndeclaredVariables": "warn",
+				"noUnusedImports": "warn",
+				"useImportExtensions": "warn"
+			},
+			"performance": {
+				"noAccumulatingSpread": "warn",
+				"noDelete": "warn"
+			},
+			"recommended": true,
+			"style": {
+				"noInferrableTypes": "warn",
+				"noNonNullAssertion": "off",
+				"noUnusedTemplateLiteral": "warn",
+				"useBlockStatements": "warn",
+				"useCollapsedElseIf": "warn",
+				"useExplicitLengthCheck": "warn",
+				"useImportType": "warn"
+			},
+			"suspicious": {
+				"noConsole": "warn",
+				"noExplicitAny": "off",
+				"useAwait": "warn"
+			}
+		}
+	}
+}
