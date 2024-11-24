@@ -1,5 +1,27 @@
 # @ayka/biome-config
 
+<!-- Package -->
+
+[npm-url]: https://www.npmjs.com/package/@ayka/biome-config
+[npm-version-badge]: https://img.shields.io/npm/v/%40ayka%2Fbiome-config/latest
+[npm-downloads-badge]: https://img.shields.io/npm/dm/%40ayka%2Fbiome-config
+[npm-unpacked-size-badge]: https://img.shields.io/npm/unpacked-size/%40ayka%2Fbiome-config
+
+<!-- Misc -->
+
+[license-url]: https://opensource.org/license/MIT
+[license-badge]: https://img.shields.io/npm/l/%40ayka%2Fbiome-config
+
+<!-- Badges -->
+
+[![NPM Version][npm-version-badge]][npm-url]
+[![NPM License][license-badge]][license-url]
+[![NPM Downloads][npm-downloads-badge]][npm-url]
+
+[![NPM Unpacked Size][npm-unpacked-size-badge]][npm-url]
+
+
+
 A shared Biome configuration package that provides consistent code formatting and linting rules.
 
 ## Features
