@@ -57,7 +57,8 @@
 			"suspicious": {
 				"noConsole": "warn",
 				"noExplicitAny": "off",
-				"useAwait": "warn"
+				"useAwait": "warn",
+				"noExportsInTest": "off"
 			}
 		}
 	}
