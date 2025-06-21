@@ -20,8 +20,6 @@
 
 [![NPM Unpacked Size][npm-unpacked-size-badge]][npm-url]
 
-
-
 A shared Biome configuration package that provides consistent code formatting and linting rules.
 
 ## Features

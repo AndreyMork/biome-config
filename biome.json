@@ -15,12 +15,16 @@
 			"allowTrailingCommas": true
 		}
 	},
-	"organizeImports": {
-		"enabled": true
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
 	},
 	"linter": {
 		"enabled": true,
-		"ignore": [],
 		"rules": {
 			"complexity": {
 				"noBannedTypes": "warn",
