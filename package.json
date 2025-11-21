@@ -14,7 +14,6 @@
 	},
 	"license": "MIT",
 	"type": "module",
-	"packageManager": "pnpm@10.12.1",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -24,9 +23,13 @@
 	"files": [
 		"biome.json"
 	],
+	"scripts": {
+		"prepack": "just prepack"
+	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.0.4",
-		"npm-check-updates": "^18.0.1",
-		"prettier": "^3.5.3"
+		"@biomejs/biome": "^2.3.7",
+		"npm-check-updates": "^19.1.2",
+		"prettier": "^3.6.2",
+		"publint": "^0.3.15"
 	}
 }

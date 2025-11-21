@@ -19,18 +19,13 @@ clean:
 format-check:
     npx prettier --check .
 
+prepack:
+    -@just format-check
+    -@just publint
+
+publint:
+    npx publint
+
 format:
     npx prettier --write .
-
-format-all: format format-justfile
-
-format-justfile:
     just --unstable --fmt
-
-format-nix:
-    nixpkgs-fmt *.nix
-
-format-utils: format-justfile
-
-update-deps:
-    npx ncu
