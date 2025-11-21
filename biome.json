@@ -42,7 +42,7 @@
 				"noUndeclaredDependencies": "warn",
 				"noUndeclaredVariables": "off",
 				"noUnusedImports": "warn",
-				"useImportExtensions": "warn"
+				"useImportExtensions": "off"
 			},
 			"performance": {
 				"noAccumulatingSpread": "warn",
