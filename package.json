@@ -1,6 +1,6 @@
 {
 	"name": "@ayka/biome-config",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "A shared Biome configuration package that provides consistent code formatting and linting rules.",
 	"keywords": [
 		"biome",
